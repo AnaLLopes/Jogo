@@ -172,6 +172,8 @@ public class Mapa {
     }
 
     public String ataca() {
+
+        
         return "Ataca";
     }
 

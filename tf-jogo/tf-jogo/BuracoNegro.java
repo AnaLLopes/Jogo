@@ -28,7 +28,7 @@ public class BuracoNegro implements ElementoMapa {
 
     @Override
     public String interage() {
-        return "AVISO!!! Não caia se não irá morrer e perder o jogo";
+        return "AVISO!!! Você esta próximo à um buraco negro. Não caia, senão irá morrer e perder o jogo";
     }
 
     
