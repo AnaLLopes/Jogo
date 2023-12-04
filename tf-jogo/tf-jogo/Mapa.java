@@ -172,22 +172,6 @@ public class Mapa {
     }
 
     public String ataca() {
-        /*
-         * 
-         int posicaoX = this.getX() / this.getTamanhoCelula();
-         int posicaoY = this.getY() / this.getTamanhoCelula();
-         
-         ElementoMapa elemento = this.getElemento(posicaoX, posicaoY);
-         if (elemento instanceof BuracoNegro){//Ve se o objeto é do tipo BuracoNegro e encerra o programa
-            System.out.println("VOCÊ PERDEU! Entrou em um buraco negro e foi ejetado do jogo!");           
-            System.exit(0);
-        }
-        else if(elemento instanceof MinaExplosiva) //Ve se o objeto é do tipo MinaExplosiva e encerra o programa
-        {
-            System.out.println("VOCÊ PERDEU! Pisou em uma mina explosiva e virou picadinho!");           
-            System.exit(0);
-        }
-        */
         return "Ataca";
     }
 

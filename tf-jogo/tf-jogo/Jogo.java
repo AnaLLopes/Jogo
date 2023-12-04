@@ -97,7 +97,7 @@ public class Jogo extends JFrame implements KeyListener {
             return;
 
             int posicaoX = mapa.getX()/mapa.getTamanhoCelula();
-            int posicaoY = mapa.getY()/mapa.getTamanhoCelula();
+            int posicaoY = mapa.getY()/mapa.getTamanhoCelula()-1;
             
             ElementoMapa elemento = mapa.getElemento(posicaoX, posicaoY);
             if (elemento instanceof BuracoNegro){//Ve se o objeto é do tipo BuracoNegro e encerra o programa
